@@ -1,0 +1,35 @@
+# Python
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+*.pyc
+*.pyo
+
+# ML Model (too large for GitHub)
+backend/model/*.h5
+
+# Watch folder images
+backend/watch_folder/*
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Environment
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+*.log
+
+# Git
+*.orig
